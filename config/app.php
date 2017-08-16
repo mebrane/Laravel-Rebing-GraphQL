@@ -179,6 +179,7 @@ return [
 
         //Ext
         Rebing\GraphQL\GraphQLServiceProvider::class,
+        Barryvdh\Cors\ServiceProvider::class,
 
     ],
 
