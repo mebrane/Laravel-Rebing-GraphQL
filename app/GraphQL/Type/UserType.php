@@ -48,4 +48,8 @@ class UserType extends GraphQLType {
         return strtolower($root->email);
     }
 
+    protected function resolveIsMeField($root,$args){
+        return $root->id==3;
+    }
+
 }
